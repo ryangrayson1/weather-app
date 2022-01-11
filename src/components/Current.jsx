@@ -6,7 +6,9 @@ function Current(){
         <div>
             <h3>Current Weather:</h3>
 
-            
+
         </div>
     )
 }
+
+export default Current;
