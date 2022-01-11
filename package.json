@@ -2,10 +2,12 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "pnpm": "^6.25.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -34,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-manifest-plugin": "^4.1.1",
+    "webpack-nano": "^1.1.1"
   }
 }
